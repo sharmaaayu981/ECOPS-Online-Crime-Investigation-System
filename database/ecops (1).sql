@@ -34,7 +34,6 @@ CREATE TABLE `contact` (
   `country` varchar(20) NOT NULL,
   `message` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
 --
 -- Dumping data for table `contact`
 --
@@ -267,6 +266,8 @@ ALTER TABLE `registered_users`
 ALTER TABLE `registered_women`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 COMMIT;
+
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
